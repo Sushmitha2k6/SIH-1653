@@ -12,15 +12,150 @@ Ministry of Defence
 
 ## Idea
 
+To create a Smart Interview System for DRDO’s RAC, we propose an AI-driven Virtual Boardroom that simulates real-life interviews. The system will have the following key features:
+
+1. Candidate Profiling & Question Matching
+
+Extract candidate’s expertise from their resume/application.
+
+AI generates relevant interview questions dynamically.
+
+Gradual progression from ice-breaking to complex technical/managerial questions.
+
+
+
+2. AI-Assisted Interview Process
+
+Panel members can use AI-suggested questions or ask their own.
+
+AI analyzes real-time speech/text responses for relevancy and depth.
+
+
+
+3. Real-Time Response Evaluation
+
+NLP-based Semantic Analysis to score responses based on correctness, depth, and relevance.
+
+Checks confidence level using speech tone analysis (optional).
+
+
+
+4. Final Scoring & Report Generation
+
+Candidate is scored based on response accuracy, depth, and expertise relevance.
+
+Generates a final scorecard for automated shortlisting.
+
 
 ## Proposed Solution / Architecture Diagram
 
 
+
+
+
 ## Use Cases
+
+1. Candidate Registration & Profile Setup
+
+Upload resume → AI extracts expertise → Creates interview roadmap.
+
+
+
+2. Interview Panel Setup
+
+Experts log in & review AI-generated question set.
+
+Option to modify/add questions.
+
+
+
+3. AI-Assisted Interview Execution
+
+Candidate joins via video/audio.
+
+AI suggests questions dynamically.
+
+AI scores responses in real time.
+
+
+
+4. Post-Interview Evaluation & Reporting
+
+Final candidate ranking based on AI-generated score.
+
+Generates detailed feedback reports.
+
+
 
 
 ## Technology Stack
 
+Frontend (User Interface)
+
+Frameworks: React.js / Angular / Vue.js
+
+Styling: Tailwind CSS / Bootstrap / Material UI
+
+WebRTC API: For live video conferencing
+
+
+Backend (Server & APIs)
+
+Language: Python
+
+Frameworks: Django / FastAPI / Flask
+
+Authentication: OAuth 2.0 / JWT (JSON Web Tokens)
+
+Speech Processing: Google Speech-to-Text / Whisper AI
+
+
+AI/NLP Components
+
+AI Model for Question Generation: OpenAI GPT / BERT
+
+AI Model for Answer Evaluation: BERT / RoBERTa / T5
+
+Text Processing: NLTK / SpaCy / Transformers
+
+Sentiment Analysis & Scoring: VADER / SentimentIntensityAnalyzer
+
+
+Database & Storage
+
+Relational Database: PostgreSQL / MySQL
+
+NoSQL Database (for AI logs & feedback): MongoDB / Firebase Firestore
+
+Cloud Storage: AWS S3 / Google Cloud Storage / Azure Blob
+
+
+Deployment & Hosting
+
+Cloud Providers: AWS / Azure / Google Cloud
+
+Containerization: Docker + Kubernetes
+
+Serverless Functions: AWS Lambda / Google Cloud Functions
+
+
+Other Dependencies
+
+Real-time Communication: WebSockets / Firebase Realtime Database
+
+Logging & Monitoring: ELK Stack / Prometheus & Grafana
+
+Version Control: GitHub / GitLab
+
 
 ## Dependencies
+1. Pre-trained AI models for NLP-based question generation and response evaluation.
 
+
+2. Secure Video Conferencing API (e.g., WebRTC, Zoom SDK) for remote interviews.
+
+
+3. Cloud Hosting (or on-prem) for scalable storage & processing.
+
+
+4. Integration with existing DRDO HR systems for seamless operations.
