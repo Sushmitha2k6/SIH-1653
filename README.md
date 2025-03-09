@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:09/03/2025
+## Register Number:212224230282
+## Name:SUSHMITHA S
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -50,6 +50,7 @@ Generates a final scorecard for automated shortlisting.
 ## Proposed Solution / Architecture Diagram
 
 
+![webbb](https://github.com/user-attachments/assets/020c9255-dcd0-4b1a-afcf-245ac628eaa7)
 
 
 
@@ -137,15 +138,6 @@ Cloud Providers: AWS / Azure / Google Cloud
 Containerization: Docker + Kubernetes
 
 Serverless Functions: AWS Lambda / Google Cloud Functions
-
-
-Other Dependencies
-
-Real-time Communication: WebSockets / Firebase Realtime Database
-
-Logging & Monitoring: ELK Stack / Prometheus & Grafana
-
-Version Control: GitHub / GitLab
 
 
 ## Dependencies
