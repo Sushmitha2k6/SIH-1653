@@ -56,6 +56,11 @@ Generates a final scorecard for automated shortlisting.
 
 ## Use Cases
 
+
+![sihh](https://github.com/user-attachments/assets/550328d1-c143-42ec-823a-a04345ae6f12)
+
+
+
 1. Candidate Registration & Profile Setup
 
 Upload resume → AI extracts expertise → Creates interview roadmap.
